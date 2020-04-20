@@ -1,0 +1,23 @@
+body
+{
+    background-color: orangered;
+    margin:0;
+    font-family: Poppins;
+}
+
+
+.card {
+    list-style: none;
+    padding:20px;
+    background-color: #f4f4f4;
+    color:#000000;
+}
+
+#pokedex
+{
+    padding-inline-start: 0;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap:20px
+}
+
